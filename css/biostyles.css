@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	background-color: white;
+}
+li:hover{
+	background-color: green;
+}
+#navheader{
+	margin-top: 0;
+	background-color: black;
+}
+#navlist li {
+	float: left;
+	padding: 10px;
+/*	border-right: 1px solid black;
+*/	list-style-type: none;
+}
+#logo{
+	font-size: 2em;
+	text-transform: uppercase;
+	font-style: italic;
+	font-weight: 600;
+	color: green;
+}
+#navlist li a{
+	margin: 50px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: white;
+}
+.mainline{
+	margin-bottom: 10px;
+	background-color: white;
+	height: 450px;
+
+}
+#aboutchunk {
+	margin-top: 0px;
+/*	border: 1px solid black;
+*/	height: 550px;
+	background-color: tan;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 1.2em
+}
+
+#aboutchunk img {
+	width: 100%;
+	height: 500px;
+	margin-left: 0;
+}
+img {
+	width: 100%;
+	height: 400px;
+	margin-left: 0;
+}
+
+#projDescription{
+	text-align: center;
+}
+
+.thumb {
+	border-top: 5px solid green;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color: tan;
+	padding: 30px;
+	margin: 50px;
+	text-align: center;
+}
+.thumb a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#footer {
+	background-color: black;
+	color: green;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+#footer h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#footnav {
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+#footnav li{
+	padding-bottom: 20px;
+}
+
+#footnav li a {
+	color: white;
+}
